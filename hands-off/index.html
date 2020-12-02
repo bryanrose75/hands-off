@@ -7,10 +7,21 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 		<body>
+		<script>
+		function myLogOut(){
+		location.replace("https://hands-off-app.herokuapp.com/register.php")
+		
+		}
+		</script>
+		
 			<div class="navBar">
 				<a href="index.html" class ="active" >Hands-Off</a>
 				<a href="aboutUs.html"> About Us</a>
 				<a href="videos.html">Video</a>
+				<button id="logOutButton" onclick="myLogOut()">
+				Log Out
+				
+				</button>
 			</div>
 			
 			<div class="welcomeContainer">
