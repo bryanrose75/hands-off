@@ -46,6 +46,11 @@ body{
 	float:right;
 }
 
+#logOutButton:hover{
+	background-color:#ddd;
+	color:black;
+}
+
 .welcomeContainer h1{
 	color:white;
 	text-align:center;
