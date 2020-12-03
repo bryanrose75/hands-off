@@ -30,10 +30,7 @@ else {
 			<div class="navBar">
 				<a href="index.php" class ="active" >Hands-Off</a>
 
-				<button id="logOutButton" onclick="myLogOut()">
-				Log Out
-				
-				</button>
+				<button id="logOutButton" onclick="myLogOut()">Log Out</button>
 			</div>
 			
 			<div class="welcomeContainer">
