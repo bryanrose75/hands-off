@@ -38,7 +38,7 @@ body{
 	color:black;
 }
 
-.logOutButton{
+#logOutButton{
 	font-size:25px;
 	color:#A8AAE0;
 	background:none;
