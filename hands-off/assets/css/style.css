@@ -19,7 +19,7 @@ img { max-width: 100%; }
 
 /***** General style, all sections *****/
 .navBar{
-	background-color:black;
+	background-color:blue;
 	overflow:hidden;
 	padding:20px;
 	text-decoration:none;
