@@ -39,7 +39,22 @@ else {
 	</head>
 
     <body>
+	<div class= "camContainer">>			
+	<video autoplay="true" id="webCamElement"></video>
+	<script>		
+		var video = document.querySelector("#webCamElement");
 
+		if (navigator.mediaDevices.getUserMedia) {
+		navigator.mediaDevices.getUserMedia({ video: true })
+		.then(function (stream) {
+		video.srcObject = stream;
+		})
+		.catch(function (err0r) {
+		console.log("Something went wrong!");
+		});
+		}
+	</script>
+	</div>
 	<div class="navBar1">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<a href="aboutUs.html"> About Us</a>
@@ -67,22 +82,7 @@ else {
 	                </div>
 	            </div>
 				<!-- End title and description row -->
-	<div class= "camContainer">>			
-	<video autoplay="true" id="webCamElement"></video>
-	<script>		
-		var video = document.querySelector("#webCamElement");
-
-		if (navigator.mediaDevices.getUserMedia) {
-		navigator.mediaDevices.getUserMedia({ video: true })
-		.then(function (stream) {
-		video.srcObject = stream;
-		})
-		.catch(function (err0r) {
-		console.log("Something went wrong!");
-		});
-		}
-	</script>
-	</div>
+	
 	            <!-- Carousel row -->
 	            <div class="row">
 	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
