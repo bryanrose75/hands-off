@@ -39,7 +39,7 @@ else {
 	</head>
 
     <body>
-	<div class= "camContainer">>			
+	<!--<div class= "camContainer">>			
 	<video autoplay="true" id="webCamElement"></video>
 	<script>		
 		var video = document.querySelector("#webCamElement");
@@ -54,7 +54,7 @@ else {
 		});
 		}
 	</script>
-	</div>
+	</div> -->
 	<div class="navBar1">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<a href="aboutUs.html"> About Us</a>
@@ -80,6 +80,22 @@ else {
 	                		</p>
 	                	</div>
 	                </div>
+			    <div class="cameraDiv">
+				  <video autoplay="true" id="webCamElement"></video>
+					<script>		
+					var video = document.querySelector("#webCamElement");
+
+					if (navigator.mediaDevices.getUserMedia) {
+					navigator.mediaDevices.getUserMedia({ video: true })
+					.then(function (stream) {
+					video.srcObject = stream;
+					})
+					.catch(function (err0r) {
+					console.log("Something went wrong!");
+					});
+					}
+					</script>
+			    </div>
 	            </div>
 				<!-- End title and description row -->
 	
