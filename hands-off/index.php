@@ -44,10 +44,7 @@ function myLogOut(){
 location.replace("https://hands-off-app.herokuapp.com/register.php")
 </script>
 <body>
-<script>
-function myLogOut(){
-location.replace("https://hands-off-app.herokuapp.com/register.php")
-</script>
+
 	
 <div class="navBar">
 		<a href="index.php" class ="active" >Hands-Off</a>
