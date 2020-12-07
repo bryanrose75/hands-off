@@ -58,6 +58,13 @@ img { max-width: 100%; }
 	float:right;
 }
 
+#webCamElement{
+	width: 300px;
+    float: right;
+	background-color:#666;
+	
+}
+
 .section-container { margin: 0 auto; padding-bottom: 80px; }
 
 .section-container-gray-bg { background: #f8f8f8; }
