@@ -37,12 +37,6 @@ else {
 <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
 </head>
-<script>
-function myLogOut(){
-location.replace("https://hands-off-app.herokuapp.com/register.php")
-
-}
-</script>
 <body>
 <div class="navBar">
 		<a href="index.html" class ="active" >Hands-Off</a>
@@ -295,6 +289,23 @@ location.replace("https://hands-off-app.herokuapp.com/register.php")
 	</div>
 </div>
 
+<div id="webCamContainer">
+	<video autoplay="true" id="webCamElement"></video>
+</div>
+
+<script>
+function myLogOut(){
+location.replace("https://hands-off-app.herokuapp.com/register.php")
+
+var video = document.querySelector("#webCamElement");
+
+if (navigator.mediaDevices.getUserMedia) {
+	navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+		video.srcObject = stream;}).catch(function (err0r) {
+		console.log("Something went wrong!");
+		});
+}
+</script>
 
 
 <!-- Javascript -->
