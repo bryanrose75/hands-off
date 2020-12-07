@@ -23,10 +23,10 @@ else {
 
         <!-- CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/animate.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/media-queries.css">
 
         <!-- Favicon and touch icons -->
@@ -39,23 +39,8 @@ else {
 	</head>
 
     <body>
-	<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Hands-Off</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#index.php">Home</a></li>
-      <li><a href="aboutUs.html">About Us</a></li>
-	  <li><a href="videos.html">Videos</a></li>
-	  <button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")>
-				Log Out
-				
-				</button>
-    </ul>
-  </div>
-</nav>
-<!--	<div class="navBar">
+
+	<div class="navBar">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<a href="aboutUs.html"> About Us</a>
 				<a href="videos.html">Video</a>
@@ -64,7 +49,7 @@ else {
 				
 				</button>
 			</div>
--->
+
         <!-- Top content -->
         <div class="top-content">
 	        <div class="container">
