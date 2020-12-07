@@ -10,7 +10,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
 	
-	.navbar-expand-md .navbar-nav .nav-link { padding-left: 0.6rem; padding-right: 0.6rem; }
+	
 	
 	.top-content .carousel-control-prev { left: -86px; }
 	.top-content .carousel-control-next { right: -86px; }
@@ -25,10 +25,7 @@
 
 @media (max-width: 767px) {
 	
-	.navbar.navbar-no-bg { background: #444; }
-	.navbar-dark .navbar-toggler { border-color: #444; }
-	.navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
-	.navbar-expand-md .navbar-nav .nav-link { padding-top: 0.3rem; padding-bottom: 0.3rem; }
+
 	
 	.top-content { padding: 20px 0 100px 0; }
 	.top-content h1 { font-size: 22px; }
@@ -66,9 +63,6 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 	
-	/* logo */
-    .navbar-brand {
-    	background-image: url(../img/logo@2x.png) !important; background-repeat: no-repeat !important; background-size: 123px 34px !important;
-    }
+
 	
 }
