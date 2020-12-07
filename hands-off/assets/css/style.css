@@ -23,9 +23,6 @@ img { max-width: 100%; }
 	overflow:hidden;
 	padding:20px;
 	text-decoration:none;
-	text-align:left;
-	
-	
 }
 /*This styles the links in the navbar*/
 .navBar a{
@@ -44,6 +41,7 @@ img { max-width: 100%; }
 	font-size:25px;
 	background-color:#d43052;
 	color:black;
+	float:left;
 }
 
 /*This styles the links when you hover over them*/
