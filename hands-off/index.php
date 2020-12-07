@@ -37,18 +37,12 @@ else {
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
     </head>
-		<script>
-		function myLogOut(){
-		location.replace("https://hands-off-app.herokuapp.com/register.php")
-		
-		}
-		</script>
     <body>
 	<div class="navBar">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<a href="aboutUs.html"> About Us</a>
 				<a href="videos.html">Video</a>
-				<button id="logOutButton" onclick="myLogOut()">
+				<button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")>
 				Log Out
 				
 				</button>
