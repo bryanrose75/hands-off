@@ -65,9 +65,9 @@ img { max-width: 100%; }
 
 #webCamElement{
 	width: 300px;
-    float: right;
+    	float: right;
 	background-color:#666;
-    position: fixed;
+   	position: static;
 
 }
 
@@ -95,7 +95,7 @@ img { max-width: 100%; }
 
 /***** Top content *****/
 
-.top-content { width: 100%; padding: 60px 0 120px 0; }
+.top-content { position:static; width: 100%; padding: 60px 0 120px 0; }
 
 .top-content h1 { padding-top: 60px; color: #fff; }
 .top-content .description { margin: 30px 0 0 0; padding-bottom: 30px; }
