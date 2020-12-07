@@ -40,7 +40,7 @@ else {
 
     <body>
 
-	<div class="navBar">
+	<div class="navBar1">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<a href="aboutUs.html"> About Us</a>
 				<a href="videos.html">Video</a>
