@@ -41,7 +41,7 @@ else {
 </head>
 <body>
 <div class="navBar">
-		<a href="index.html" class ="active" >Hands-Off</a>
+		<a href="index.php" class ="active" >Hands-Off</a>
 		<a href="aboutUs.html"> About Us</a>
 		<a href="videos.html">Video</a>
 		<button id="logOutButton" onclick="myLogOut()">
