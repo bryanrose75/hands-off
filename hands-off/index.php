@@ -39,22 +39,7 @@ else {
 	</head>
 
     <body>
-	<!--<div class= "camContainer">>			
-	<video autoplay="true" id="webCamElement"></video>
-	<script>		
-		var video = document.querySelector("#webCamElement");
-
-		if (navigator.mediaDevices.getUserMedia) {
-		navigator.mediaDevices.getUserMedia({ video: true })
-		.then(function (stream) {
-		video.srcObject = stream;
-		})
-		.catch(function (err0r) {
-		console.log("Something went wrong!");
-		});
-		}
-	</script>
-	</div> -->
+	
 	<div class="navBar1">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<a href="aboutUs.html"> About Us</a>
@@ -196,35 +181,6 @@ else {
 	        </div>
         </div>
 
-        <!-- Section 2 -->
-        <div class="section-2-container section-container section-container-gray-bg">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col section-2 section-description wow fadeIn">
-	                </div>
-	            </div>
-	            <div class="row">
-	            	<div class="col section-2-box wow fadeInLeft">
-                    	<h3>Section 2</h3>
-                    	<p class="medium-paragraph">
-                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                    		sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.
-                    	</p>
-                    	<p>
-                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                    		Ut wisi enim ad minim veniam, quis nostrud. 
-                    		Exerci tation ullamcorper suscipit <a href="#">lobortis nisl</a> ut aliquip ex ea commodo consequat. 
-                    		Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl. 
-                    	</p>
-                    	<p>
-                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-                    		Ut wisi enim ad minim veniam, quis nostrud. 
-                    		Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    	</p>
-	                </div>
-	            </div>
-	        </div>
-        </div>
 
 		<!-- Section 3 -->
         <div class="section-3-container section-container">
