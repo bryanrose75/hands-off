@@ -67,6 +67,7 @@ else {
 	                </div>
 	            </div>
 				<!-- End title and description row -->
+	<div class= "camContainer">>			
 	<video autoplay="true" id="webCamElement"></video>
 	<script>		
 		var video = document.querySelector("#webCamElement");
@@ -81,6 +82,7 @@ else {
 		});
 		}
 	</script>
+	</div>
 	            <!-- Carousel row -->
 	            <div class="row">
 	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
