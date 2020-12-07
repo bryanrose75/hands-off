@@ -37,6 +37,9 @@ else {
         <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
 	</head>
+
+    <body>
+
 	<div class="navBar">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<a href="aboutUs.html"> About Us</a>
@@ -46,7 +49,6 @@ else {
 				
 				</button>
 			</div>
-    <body>
 
         <!-- Top content -->
         <div class="top-content">
