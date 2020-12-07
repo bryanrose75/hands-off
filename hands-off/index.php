@@ -99,12 +99,12 @@ else {
 	       								<iframe class="embed-responsive-item" src="assets/vid/Hands Off.mp4" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
-	       						<div class="carousel-item">
+	       						<div class="carousel-item" data-interval="false">
 	       							<div class="embed-responsive embed-responsive-16by9">
 	       								<iframe class="embed-responsive-item" src="assets/vid/vid1.mp4" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
-	       						<div class="carousel-item">
+	       						<div class="carousel-item" data-interval="false">
 	       							<div class="embed-responsive embed-responsive-16by9">
 	       								<iframe class="embed-responsive-item" src="assets/vid/vid2.mp4" allowfullscreen></iframe>
 	       							</div>
