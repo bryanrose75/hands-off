@@ -71,7 +71,7 @@ else {
 				
 	        	<!-- Title and description row -->
 	            <div class="row">
-	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+	                <div class="welcomeDiv">
 	                	<h1>Welcome to Hands-Off!</h1>
 	                	<div class="description">
 	                		<p>
