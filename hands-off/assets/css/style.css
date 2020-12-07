@@ -26,12 +26,13 @@ img { max-width: 100%; }
 }
 /*This styles the links in the navbar*/
 .navBar a{
+	float:left;
 	padding:10px;
 	font-size:25px;
 	color: #A8AAE0;
 	text-align:center;
 	text-decoration:none;
-	float:left;
+	
 	
 	
 }
