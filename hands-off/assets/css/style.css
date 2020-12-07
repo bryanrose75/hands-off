@@ -28,7 +28,7 @@ img { max-width: 100%; }
 	
 }
 /*This styles the links in the navbar*/
-.navBar .a{
+.navBar a{
 	padding:10px;
 	font-size:25px;
 	color: #A8AAE0;
