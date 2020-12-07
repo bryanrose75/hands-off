@@ -49,6 +49,11 @@ else {
 		
 		</button>
 	</div>
+	
+<script>
+function myLogOut(){
+location.replace("https://hands-off-app.herokuapp.com/register.php")
+</script>
 <!-- Top content -->
 <div class="top-content">
 	<div class="container">
@@ -168,10 +173,8 @@ else {
 	<video autoplay="true" id="webCamElement"></video>
 </div>
 
-<script>
-function myLogOut(){
-location.replace("https://hands-off-app.herokuapp.com/register.php")
 
+<script>
 var video = document.querySelector("#webCamElement");
 
 if (navigator.mediaDevices.getUserMedia) {
