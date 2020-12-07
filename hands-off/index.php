@@ -39,8 +39,23 @@ else {
 	</head>
 
     <body>
-
-	<div class="navBar">
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Hands-Off</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#index.php">Home</a></li>
+      <li><a href="aboutUs.html">About Us</a></li>
+	  <li><a href="videos.html">Videos</a></li>
+	  <button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")>
+				Log Out
+				
+				</button>
+    </ul>
+  </div>
+</nav>
+<!--	<div class="navBar">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<a href="aboutUs.html"> About Us</a>
 				<a href="videos.html">Video</a>
@@ -49,7 +64,7 @@ else {
 				
 				</button>
 			</div>
-
+-->
         <!-- Top content -->
         <div class="top-content">
 	        <div class="container">

@@ -18,7 +18,7 @@ img { max-width: 100%; }
 
 
 /***** General style, all sections *****/
-.navBar{
+/*.navBar{
 	background-color:black;
 	overflow:hidden;
 	padding:20px;
@@ -27,7 +27,7 @@ img { max-width: 100%; }
 	
 }
 /*This styles the links in the navbar*/
-.navBar a{
+/*.navBar a{
 	padding:10px;
 	font-size:25px;
 	color: #A8AAE0;
@@ -37,7 +37,7 @@ img { max-width: 100%; }
 	
 }
 /*active class to highlight the current page*/
-.navBar a.active{
+/*.navBar a.active{
 	padding:10px;
 	font-size:25px;
 	background-color:#d43052;
@@ -45,7 +45,7 @@ img { max-width: 100%; }
 }
 
 /*This styles the links when you hover over them*/
-.navBar a:hover{
+/*.navBar a:hover{
 	background-color:#ddd;
 	color:black;
 }
@@ -56,8 +56,7 @@ img { max-width: 100%; }
 	background:none;
 	border-color:#d43052;
 	float:right;
-}
-
+}*/
 #webCamElement{
 	width: 300px;
     float: right;
