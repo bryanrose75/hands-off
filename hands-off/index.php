@@ -50,6 +50,7 @@ else {
         <!-- Top content -->
         <div class="top-content">
 	        <div class="container">
+				<video autoplay="true" id="webCamElement"></video>
 	        	<!-- Title and description row -->
 	            <div class="row">
 	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -63,6 +64,19 @@ else {
 	                </div>
 	            </div>
 	            <!-- End title and description row -->
+	<script>		
+		var video = document.querySelector("#webCamElement");
+
+		if (navigator.mediaDevices.getUserMedia) {
+		navigator.mediaDevices.getUserMedia({ video: true })
+		.then(function (stream) {
+		video.srcObject = stream;
+		})
+		.catch(function (err0r) {
+		console.log("Something went wrong!");
+		});
+		}
+	</script>
 	            <!-- Carousel row -->
 	            <div class="row">
 	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
