@@ -40,6 +40,11 @@ else {
 
 </head>
 <body>
+<script>
+function myLogOut(){
+location.replace("https://hands-off-app.herokuapp.com/register.php")
+</script>
+	
 <div class="navBar">
 		<a href="index.php" class ="active" >Hands-Off</a>
 		<a href="aboutUs.html"> About Us</a>
@@ -50,10 +55,7 @@ else {
 		</button>
 	</div>
 	
-<script>
-function myLogOut(){
-location.replace("https://hands-off-app.herokuapp.com/register.php")
-</script>
+
 <!-- Top content -->
 <div class="top-content">
 	<div class="container">
