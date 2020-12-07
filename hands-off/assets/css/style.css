@@ -62,6 +62,15 @@ img { max-width: 100%; }
 	background-color:#ddd;
 	color:black;
 }
+.welcomeDiv{
+	width:60%;
+	float:left;
+}
+
+.cameraDiv{
+	width:40%;
+	float:right;
+}
 
 #webCamElement{
 	width: 300px;
