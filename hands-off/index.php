@@ -87,7 +87,7 @@ else {
 	            <div class="row">
 	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 	                	<!-- Carousel -->
-	                	<div id="carousel-example" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
+	                	<div id="carousel-example" class="carousel slide">
 	       					<ol class="carousel-indicators">
 	       						<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
 	       						<li data-target="#carousel-example" data-slide-to="1" ></li>
