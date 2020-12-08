@@ -84,14 +84,14 @@ else {
 				<!-- End title and description row -->
 	
 	            <!-- Carousel row -->
-	            <div class="row" data-interval="false">
+	            <div class="row">
 	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 	                	<!-- Carousel -->
 	                	<div id="carousel-example" class="carousel slide">
 	       					<ol class="carousel-indicators">
 	       						<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-	       						<li data-target="#carousel-example" data-slide-to="1"></li>
-	       						<li data-target="#carousel-example" data-slide-to="2"></li>
+	       						<li data-target="#carousel-example" data-slide-to="1" data-interval="false"></li>
+	       						<li data-target="#carousel-example" data-slide-to="2" data-interval="false"></li>
 	       					</ol>
 	       					<div class="carousel-inner">
 	       						<div class="carousel-item active">
