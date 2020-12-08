@@ -100,13 +100,13 @@ else {
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item">
-	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="assets/vid/vid1.mp4" allowfullscreen data-interval="false"></iframe>
+	       							<div class="embed-responsive embed-responsive-16by9" data-interval="false">
+	       								<iframe class="embed-responsive-item" src="assets/vid/vid1.mp4" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item" >
-	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="assets/vid/vid2.mp4" allowfullscreen data-interval="false"></iframe>
+	       							<div class="embed-responsive embed-responsive-16by9" data-interval="false">
+	       								<iframe class="embed-responsive-item" src="assets/vid/vid2.mp4" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
 								
