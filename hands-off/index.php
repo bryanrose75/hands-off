@@ -90,8 +90,8 @@ else {
 	                	<div id="carousel-example" class="carousel slide">
 	       					<ol class="carousel-indicators">
 	       						<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-	       						<li data-target="#carousel-example" data-slide-to="1" data-interval="false"></li>
-	       						<li data-target="#carousel-example" data-slide-to="2" data-interval="false"></li>
+	       						<li data-target="#carousel-example" data-slide-to="1" ></li>
+	       						<li data-target="#carousel-example" data-slide-to="2" ></li>
 	       					</ol>
 	       					<div class="carousel-inner">
 	       						<div class="carousel-item active">
@@ -101,12 +101,12 @@ else {
 	       						</div>
 	       						<div class="carousel-item">
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="assets/vid/vid1.mp4" allowfullscreen></iframe>
+	       								<iframe class="embed-responsive-item" src="assets/vid/vid1.mp4" allowfullscreen data-interval="false"></iframe>
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item" >
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="assets/vid/vid2.mp4" allowfullscreen></iframe>
+	       								<iframe class="embed-responsive-item" src="assets/vid/vid2.mp4" allowfullscreen data-interval="false"></iframe>
 	       							</div>
 	       						</div>
 								
