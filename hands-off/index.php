@@ -87,14 +87,14 @@ else {
 	            <div class="row">
 	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 	                	<!-- Carousel -->
-	                	<div id="carousel-example" class="carousel slide">
+	                	<div id="carousel-example" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
 	       					<ol class="carousel-indicators">
 	       						<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
 	       						<li data-target="#carousel-example" data-slide-to="1" ></li>
 	       						<li data-target="#carousel-example" data-slide-to="2" ></li>
 	       					</ol>
 	       					<div class="carousel-inner">
-	       						<div class="carousel-item active" data-interval="false">
+	       						<div class="carousel-item active">
 	       							<div class="embed-responsive embed-responsive-16by9">
 	       								<iframe class="embed-responsive-item" src="assets/vid/Hands Off.mp4" allowfullscreen></iframe>
 	       							</div>
