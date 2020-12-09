@@ -92,7 +92,7 @@ else {
 	       						<li data-target="#carousel-example" data-slide-to="2" ></li>
 	       					</ol>
 	       					<div class="carousel-inner">
-	       						<div class="carousel-item active">
+	       						<div class="carousel-item active" muted autoplay="autoplay" loop="loop" preload="auto" id="video" data-interval="999999999">
 	       							<div class="embed-responsive embed-responsive-16by9">
 	       								<iframe class="embed-responsive-item" src="assets/vid/Hands Off.mp4" allowfullscreen></iframe>
 	       							</div>
