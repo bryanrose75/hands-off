@@ -127,22 +127,6 @@ else {
         </div>
 
        
-		<!-- Section 4 -->
-        <div class="section-4-container section-container section-container-image-bg">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col section-4 section-description wow fadeInLeftBig">
-	                	<h2>Section 4</h2>
-	                    <p>
-	                    	Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut 
-	                    	aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud.
-	                    </p>
-	                </div>
-	            </div>
-	        </div>
-        </div>
-
-
 
         <!-- Javascript -->
 		<script src="assets/js/jquery-3.3.1.min.js"></script>
