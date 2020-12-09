@@ -98,7 +98,7 @@ else {
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item">
-	       							<video controls="true" div class="embed-responsive embed-responsive-16by9">
+	       							<div class="embed-responsive embed-responsive-16by9" >
 	       								<iframe class="embed-responsive-item"src="assets/vid/vid1.mp4" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
