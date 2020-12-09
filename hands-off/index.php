@@ -41,7 +41,6 @@ else {
 	
 	<div class="navBar1">
 				<a href="index.php" class ="active" >Hands-Off</a>
-				<a href="aboutUs.html"> About Us</a>
 				<button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")>
 				Log Out
 				
