@@ -99,12 +99,12 @@ else {
 	       						</div>
 	       						<div class="carousel-item">
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" muted autoplay="autoplay" loop="loop" preload="auto" id="video" data-interval="999999999" src="assets/vid/vid1.mp4" allowfullscreen></iframe>
+	       								<iframe class="embed-responsive-item" controls muted autoplay="autoplay" loop="loop" preload="auto" id="video" data-interval="999999999" src="assets/vid/vid1.mp4" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item" >
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" muted autoplay="autoplay" loop="loop" preload="auto"  data-interval="999999999" src="assets/vid/vid2.mp4" allowfullscreen></iframe>
+	       								<iframe class="embed-responsive-item" controls muted autoplay="autoplay" loop="loop" preload="auto"  data-interval="999999999" src="assets/vid/vid2.mp4" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
 								
