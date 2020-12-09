@@ -1,5 +1,14 @@
 
-body { font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400; color: #888; line-height: 30px; text-align: center; opacity:0.98;}
+body { font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400; color: #888; line-height: 30px; text-align: center; background-image: 
+    url(../images/bg3.jpg);
+    opacity: 0.98; 
+    background-position: center;
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+}
 
 strong { font-weight: 600; }
 
