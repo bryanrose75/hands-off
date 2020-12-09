@@ -74,6 +74,7 @@ img { max-width: 100%; }
 .welcomeDiv{
 	width:60%;
 	float:left;
+	padding-bottom:10px;
 }
 
 .cameraDiv{
