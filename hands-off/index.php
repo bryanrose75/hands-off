@@ -19,7 +19,11 @@ else {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-        <title>Hands Off</title>
+		<title>Hands Off</title>
+		
+		  <!-- Include Handsfree.js -->
+		  <link rel="stylesheet" href="https://unpkg.com/handsfree@7.2.15/build/lib/assets/handsfree.css" />
+  		<script src="https://unpkg.com/handsfree@7.2.15/build/lib/handsfree.js"></script>
 
         <!-- CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
@@ -38,7 +42,12 @@ else {
 	</head>
 
     <body>
-	
+	 <!-- Instantiate and start HandsFree -->
+	 <script>
+    handsfree = new Handsfree({hand: true})
+
+    handsfree.start()
+  </script>
 	<div class="navBar1">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")>
