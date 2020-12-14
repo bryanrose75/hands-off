@@ -21,7 +21,8 @@ else {
         
 		<title>Hands Off</title>
 		
-		<!-- Include Handsfree.js -->  
+		  <!-- Include Handsfree.js -->
+		  <link rel="stylesheet" href="https://unpkg.com/handsfree@7.2.15/build/lib/assets/handsfree.css" />
   		<script src="https://unpkg.com/handsfree@7.2.15/build/lib/handsfree.js"></script>
 
         <!-- CSS -->
@@ -29,15 +30,15 @@ else {
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" href="assets/css/media-queries.css">
-		<link rel="stylesheet" href="https://unpkg.com/handsfree@7.2.15/build/lib/assets/handsfree.css" />
+        <link rel="stylesheet" href="assets/css/media-queries.css">
 
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="assets/ico/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-		<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
 	</head>
 
     <body>
@@ -47,8 +48,6 @@ else {
 
     handsfree.start()
   </script>
-
-  
 	<div class="navBar1">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")>
@@ -104,7 +103,7 @@ else {
 	       					<div class="carousel-inner">
 	       						<div class="carousel-item active">
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=ROalU379l3U&t=142s" allowfullscreen></iframe>
+	       								<iframe class="embed-responsive-item" src="assets/vid/Hands Off.mp4" allowfullscreen></iframe>
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item">
