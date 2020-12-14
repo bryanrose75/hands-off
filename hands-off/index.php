@@ -21,9 +21,7 @@ else {
         
 		<title>Hands Off</title>
 		
-		  <!-- Include Handsfree.js -->
-		  <link rel="stylesheet" href="https://unpkg.com/handsfree@7.2.15/build/lib/assets/handsfree.css" />
-  		<script src="https://unpkg.com/handsfree@7.2.15/build/lib/handsfree.js"></script>
+
 
         <!-- CSS -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
@@ -42,6 +40,9 @@ else {
 	</head>
 
     <body>
+				  <!-- Include Handsfree.js -->
+				  <link rel="stylesheet" href="https://unpkg.com/handsfree@7.2.15/build/lib/assets/handsfree.css" />
+  		  <script src="https://unpkg.com/handsfree@7.2.15/build/lib/handsfree.js"></script>
 	 <!-- Instantiate and start HandsFree -->
 	 <script>
     handsfree = new Handsfree({hand: true})
