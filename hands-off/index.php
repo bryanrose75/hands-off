@@ -34,12 +34,7 @@ else {
 	</head>
 
     <body>
-	 <!-- Instantiate and start HandsFree -->
-	 <script>
-    handsfree = new Handsfree({hand: true})
 
-    handsfree.start()
-  </script>
 	<div class="navBar1">
 				<a href="index.php" class ="active" >Hands-Off</a>
 				<button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")>
@@ -126,7 +121,15 @@ else {
 	        </div>
         </div>
 
-       
+		 <!-- Instantiate and start HandsFree -->
+	 <script>
+		 iframe.onload = function() {
+    handsfree = new Handsfree({hand: true})
+
+	handsfree.start()
+}
+  </script>
+		
 
         <!-- Javascript -->
 		<script src="assets/js/jquery-3.3.1.min.js"></script>
