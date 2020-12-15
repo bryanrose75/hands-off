@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    
+$(document).ready(function() {
+
     $("#hideLogin").click(function() {
         console.log("login was pressed");
         $("#loginForm").hide();
