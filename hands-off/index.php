@@ -35,8 +35,7 @@ if (isset($_SESSION['userLoggedIn'])) {
 </head>
 
 <body>
-	
-	</script>
+
 	<div class="navBar1">
 		<a href="index.php" class="active">Hands-Off</a>
 		<button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")> Log Out </button> </div> <!-- Top content -->
@@ -80,13 +79,14 @@ if (isset($_SESSION['userLoggedIn'])) {
 						<div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 							<!-- Carousel -->
 							<div id="carousel-example" class="carousel slide" data-interval="false">
-								<!-- Instantiate and start HandsFree -->
+									<!-- Instantiate and start HandsFree -->
 	<script>
 		handsfree = new Handsfree({
 			hand: true
 		})
 
 		handsfree.start()
+	</script>
 								<ol class="carousel-indicators">
 									<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
 									<li data-target="#carousel-example" data-slide-to="1"></li>
@@ -100,12 +100,12 @@ if (isset($_SESSION['userLoggedIn'])) {
 									</div>
 									<div class="carousel-item">
 										<div class="embed-responsive embed-responsive-16by9">
-											<video src="assets/vid/vid1.mp4" controls></video>
+											<video src="assets/vid/vid1.mp4" autoplay loop muted controls></video>
 										</div>
 									</div>
 									<div class="carousel-item">
 										<div class="embed-responsive embed-responsive-16by9">
-											<video src="assets/vid/vid2.mp4" controls></video>
+											<video src="assets/vid/vid2.mp4" autoplay loop muted controls></video>
 										</div>
 									</div>
 
