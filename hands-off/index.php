@@ -98,7 +98,7 @@ else {
 									   <video controls>
 	       								<class="embed-responsive-item" src="assets/vid/Hands Off.mp4" type="video/mp4">
 	       							</div>
-	       						</div>
+	       						
 	       						<div class="carousel-item">
 	       							<div class="embed-responsive embed-responsive-16by9" >
 	       								<iframe class="embed-responsive-item"src="assets/vid/vid1.mp4" allowfullscreen></iframe>
