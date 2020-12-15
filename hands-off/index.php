@@ -84,48 +84,28 @@ else {
 				<!-- End title and description row -->
 	
 	            <!-- Carousel row -->
-	            <div class="row">
-	                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-	                	<!-- Carousel -->
-	                	<div id="carousel-example" class="carousel slide">
-	       					<ol class="carousel-indicators">
-	       						<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-	       						<li data-target="#carousel-example" data-slide-to="1" ></li>
-	       						<li data-target="#carousel-example" data-slide-to="2" ></li>
-	       					</ol>
-	       					<div class="carousel-inner">
-	       						<div class="carousel-item active">
-	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<video class="embed-responsive-item" src="assets/vid/Hands Off.mp4" allowfullscreen></iframe>
-	       							</div>
-	       						</div>
-	       						<div class="carousel-item">
-	       							<div class="embed-responsive embed-responsive-16by9" >
-	       								<video class="embed-responsive-item"src="assets/vid/vid1.mp4" allowfullscreen></iframe>
-	       							</div>
-	       						</div>
-	       						<div class="carousel-item" >
-	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<video class="embed-responsive-item" src="assets/vid/vid2.mp4" allowfullscreen></iframe>
-	       							</div>
-	       						</div>
-								
-	       					</div>
-							<a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
-	       				</div>
-	                	<!-- End carousel -->
-	                </div>
-	            </div>
-	            <!-- End carousel row -->
-	        </div>
+	            <div class="container"> <div class="span8">
+<div id="myCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <iframe src="//www.youtube.com/embed/-w-58hQ9dLk?controls=0" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
         </div>
+        <div class="item">
+            <iframe src="//www.youtube.com/embed/SEBLt6Kd9EY?controls=0" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+        <div class="item">
+            <iframe src="//www.youtube.com/embed/IkTw7J-hGmg?controls=0" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+</div>
+</div>
 
        
 
