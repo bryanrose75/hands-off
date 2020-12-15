@@ -97,6 +97,12 @@ else {
 	       						<div class="carousel-item active">
 	       							<div class="embed-responsive embed-responsive-16by9">
 	       								<iframe class="embed-responsive-item" src="assets/vid/Hands Off.mp4" allowfullscreen></iframe>
+										<script>
+  										iframe.onload = function() {
+    									// just do anything
+   	 									iframe.contentDocument.body.prepend("Hello, world!");
+  										};
+									</script>
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item">
