@@ -100,8 +100,8 @@ else {
       <!--Mask color-->
       <div class="view">
         <!--Video source-->
-        <video class="video-fluid" autoplay loop muted>
-          <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />
+        <video class="video-fluid" muted>
+          <source src="hands-off\assets\vid\Hands Off.mp4" type="video/mp4" />
         </video>
         <div class="mask rgba-indigo-light"></div>
       </div>
@@ -121,7 +121,7 @@ else {
       <!--Mask color-->
       <div class="view">
         <!--Video source-->
-        <video class="video-fluid" autoplay loop muted>
+        <video class="video-fluid" muted>
           <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
         </video>
         <div class="mask rgba-purple-slight"></div>
@@ -142,7 +142,7 @@ else {
       <!--Mask color-->
       <div class="view">
         <!--Video source-->
-        <video class="video-fluid" autoplay loop muted>
+        <video class="video-fluid" muted>
           <source src="https://mdbootstrap.com/img/video/cube.mp4" type="video/mp4" />
         </video>
         <div class="mask rgba-black-strong"></div>
