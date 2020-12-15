@@ -98,9 +98,9 @@ else {
 	       							<div class="embed-responsive embed-responsive-16by9">
 	       								<iframe class="embed-responsive-item" src="assets/vid/Hands Off.mp4" allowfullscreen></iframe>
 										<script>
-  										<embed-responsive-item class="iframe"></embed-responsive-item>onload = function() {
+  										<iframe class="embed-responsive-item"></iframe>onload = function() {
     									// just do anything
-										<embed-responsive-item class="iframe"></embed-responsive-item>.contentDocument.body.prepend("Hello, world!");
+										<iframe class="embed-responsive-item"></iframe>.contentDocument.body.prepend("Hello, world!");
   										};
 									</script>
 	       							</div>
