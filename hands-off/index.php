@@ -85,7 +85,7 @@ if (isset($_SESSION['userLoggedIn'])) {
 					<div class="row">
 						<div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 							<!-- Carousel -->
-							<div id="carousel-example" class="carousel slide">
+							<div id="carousel-example" class="carousel slide" data-interval="false">
 								<ol class="carousel-indicators">
 									<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
 									<li data-target="#carousel-example" data-slide-to="1"></li>
