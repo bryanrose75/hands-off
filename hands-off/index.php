@@ -93,8 +93,7 @@ if (isset($_SESSION['userLoggedIn'])) {
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-										<div class="embed-responsive embed-responsive-16by9">
-
+										<div class="embed-responsive embed-responsive-16by9" autoplay loop muted>
 											<video src="assets/vid/Hands Off.mp4" controls></video>
 										</div>
 									</div>
