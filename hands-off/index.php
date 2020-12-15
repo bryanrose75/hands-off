@@ -35,13 +35,7 @@ if (isset($_SESSION['userLoggedIn'])) {
 </head>
 
 <body>
-	<!-- Instantiate and start HandsFree -->
-	<script>
-		handsfree = new Handsfree({
-			hand: true
-		})
-
-		handsfree.start()
+	
 	</script>
 	<div class="navBar1">
 		<a href="index.php" class="active">Hands-Off</a>
@@ -86,6 +80,13 @@ if (isset($_SESSION['userLoggedIn'])) {
 						<div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
 							<!-- Carousel -->
 							<div id="carousel-example" class="carousel slide" data-interval="false">
+								<!-- Instantiate and start HandsFree -->
+	<script>
+		handsfree = new Handsfree({
+			hand: true
+		})
+
+		handsfree.start()
 								<ol class="carousel-indicators">
 									<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
 									<li data-target="#carousel-example" data-slide-to="1"></li>
