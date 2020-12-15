@@ -102,12 +102,12 @@ else {
 	       						</div>
 	       						<div class="carousel-item">
 	       							<div class="embed-responsive embed-responsive-16by9" >
-	       								<iframe class="embed-responsive-item"src="assets/vid/vid1.mp4" allowfullscreen></iframe>
+									   <video src="assets/vid/vid1.mp4" controls></video>
 	       							</div>
 	       						</div>
 	       						<div class="carousel-item" >
 	       							<div class="embed-responsive embed-responsive-16by9">
-	       								<iframe class="embed-responsive-item" src="assets/vid/vid2.mp4" allowfullscreen></iframe>
+									   <video src="assets/vid/vid2.mp4" controls></video>
 	       							</div>
 	       						</div>
 								
