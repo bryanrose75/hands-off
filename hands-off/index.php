@@ -24,14 +24,6 @@ if (isset($_SESSION['userLoggedIn'])) {
 	<!-- Include Handsfree.js -->
 	<link rel="stylesheet" href="https://unpkg.com/handsfree@7.2.15/build/lib/assets/handsfree.css" />
 	<script src="https://unpkg.com/handsfree@7.2.15/build/lib/handsfree.js"></script>
-	<!-- Instantiate and start HandsFree -->
-	<script>
-		handsfree = new Handsfree({
-			hand: true
-		})
-
-		handsfree.start()
-	</script>
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -42,10 +34,19 @@ if (isset($_SESSION['userLoggedIn'])) {
 </head>
 
 <body>
+	<!-- Instantiate and start HandsFree -->
+	<script>
+		handsfree = new Handsfree({
+			hand: true
+		})
+
+		handsfree.start()
+	</script>
 
 	<div class="navBar1">
 		<a href="index.php" class="active">Hands-Off</a>
-		<button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")> Log Out </button> </div> <!-- Top content -->
+		<button id="logOutButton" onclick=location.replace("https://hands-off-app.herokuapp.com/register.php")> Log Out </button> </div>
+		 <!-- Top content -->
 			<div class="top-content">
 				<div class="container">
 
